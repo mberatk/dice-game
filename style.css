@@ -1,0 +1,50 @@
+body{
+    height: 60vh;
+    text-align: center;
+    align-items: center;  
+    justify-content: center;  
+    background-color:rgb(36, 36, 36);
+    color: rgb(255, 4, 4);
+    margin: 100px 100px 100px 100px;
+    font-size: 3rem
+}
+
+#ply-1 {
+    display: inline-block;
+    margin-right: 10rem;
+}
+
+#ply-2 {
+    display: inline-block;
+}
+
+@media(max-width:600px) {
+   body{
+    height: auto;
+   }
+   
+    h1{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 1.8rem;
+    }
+
+    #ply-1{
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+    #ply-2{
+        display: inline-block;
+    }
+
+    #ply-1-img{
+        width: 50px;
+    }
+
+    #ply-2-img{
+        width: 50px;
+    }
+}
